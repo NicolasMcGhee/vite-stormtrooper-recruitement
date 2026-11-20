@@ -1,0 +1,17 @@
+.Card_Flex {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.Card_Flex h2 {
+    color: var(--text-main);
+}
+
+.Card_Flex h3 {
+    color: var(--text-accent);
+}
+
+.Card_Flex img {
+    aspect-ratio: 2.7/3;
+}

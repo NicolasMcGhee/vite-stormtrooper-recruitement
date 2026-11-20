@@ -1,0 +1,35 @@
+.Hero_Container {
+  background-image: url(/public/Stormtrooper/Stormtrooper_Wallpaper.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.Hero_Flex {
+  height: inherit;
+  color: white;
+  font-size: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 3rem;
+}
+.Hero_Top p {
+  font-size: 2rem;
+}
+
+.Hero_Top button {
+  font-size: 2rem;
+  margin-top: 1rem;
+  background-color: grey;
+  padding: .5rem;
+  border-radius: 1rem;
+  border: 1px solid white;
+}
+
+.Hero_Top button:hover {
+  cursor: pointer;
+  background-color: rgb(53, 53, 53);
+  transition: all 1s;
+}
